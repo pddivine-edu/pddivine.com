@@ -1,0 +1,23 @@
+{
+  "name": "pddivine.com",
+  "version": "0.0.0",
+  "description": "Repository for www.pddivine.com",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pddivine/pddivine.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pddivine/pddivine.com/issues"
+  },
+  "homepage": "https://github.com/pddivine/pddivine.com#readme",
+  "dependencies": {
+    "config": "^1.24.0",
+    "express": "^4.14.0"
+  }
+}
