@@ -1,0 +1,109 @@
+html,
+body,
+#content {
+  height: 100%;
+}
+
+
+/* Clear margins, center */
+
+html,
+body,
+#content,
+h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*Handle container heights*/
+
+#headerContainer {
+  flex: 2.75;
+}
+
+#contentContainer {
+  flex: 6.5;
+}
+
+#footerContainer {
+  flex: 1.75;
+}
+
+
+/* Handle header container contents */
+
+#headerContainer {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+
+/* Handle title container */
+
+#mainTitleContainer {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainTitleContainer:hover {
+  background: lightblue;
+}
+
+
+/* Handle title container */
+
+#menuContainer {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#homeLink,
+#aboutLink,
+#blogLink {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Handle link hovers */
+
+#homeLink:hover {
+  background: lightblue;
+}
+
+#aboutLink:hover {
+  background: lightcoral;
+}
+
+#blogLink:hover {
+  background: lightgreen;
+}
+
+
+/* Handle footer hover */
+
+#footerContainer:hover {
+  background: whitesmoke;
+}
+
+#footerContent {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
