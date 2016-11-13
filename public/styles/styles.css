@@ -10,6 +10,13 @@ body,
 }
 
 
+/* Configure link defaults */
+
+a {
+  color: black;
+}
+
+
 /* Clear margins, center */
 
 html,
@@ -116,6 +123,7 @@ h1 {
 
 #mainContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 500px;
