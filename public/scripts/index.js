@@ -31,6 +31,7 @@ function onReady() {
 
   // Handle main content
   mainContainer.appendChild(newDomElem('canvas', 'myChart')); //<canvas id="myChart" width="700" height="300"></canvas>
+  mainContainer.appendChild(newDomElem('p', null, null, 'Charts made with <a href="http://www.chartjs.org/"><strong>Chart.js</strong></a>')); //<canvas id="myChart" width="700" height="300"></canvas>
 
   // Handle footer content
   footerContainer.appendChild(newDomElem('div', 'footerContent', 'menuLinks', "<p><strong>#purejs #noframework</strong></p>"));
