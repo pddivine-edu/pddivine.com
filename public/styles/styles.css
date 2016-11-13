@@ -4,6 +4,11 @@ body,
   height: 100%;
 }
 
+.chartjs-hidden-iframe {
+  height: 100px;
+  width: 100px;
+}
+
 
 /* Clear margins, center */
 
@@ -42,6 +47,7 @@ h1 {
   display: flex;
   height: 100%;
   flex-direction: column;
+  min-height: 100px;
 }
 
 
@@ -106,4 +112,18 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+
+/* Chart */
+
+#myChart {
+  height: 350px;
 }
