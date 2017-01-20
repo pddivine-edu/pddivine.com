@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  color: #401800; /* 401800 */
+  background-color: orange;
+  min-width: 460px;
+}
+
+a {
+  color: #401800;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+body {
+  background-image: url(https://dl.dropboxusercontent.com/u/22874695/patrick_torii_gate.png);
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 200px;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 48px;
+  min-width: 373px;
+  height: 1em;
+}
+
+.links {
+  display:  flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.link {
+ height: 1em;
+}
+
+.content {
+  margin: 0px 20px;
+  text-align: left;
+  color: white;
+  height: 300px;
+  font-size: 0;
+}
+
+.orangeContainer {
+  background-color: #E55500;
+  margin: 5px;
+  border-width: 10px;
+  border-color: #401800;
+  border-style: solid;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+  line-height: 3.5em;
+  vertical-align: middle;
+  color: #401800;
+  font-weight: bold;
+}
+
+#attribute {
+  font-size: 50px;
+}
+
+#cursor {
+  font-size: 75px;
+}
