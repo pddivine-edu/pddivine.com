@@ -70,6 +70,7 @@ body {
   border-color: #401800;
   border-style: solid;
   padding: 10px;
+  border-radius: 2px;
 }
 
 .footer {
