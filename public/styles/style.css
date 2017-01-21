@@ -44,6 +44,10 @@ body {
   border-radius: 7px;
 }
 
+.title:hover {
+  background-color: #BB4F0E;
+}
+
 .links {
   display:  flex;
   justify-content: space-around;
@@ -56,6 +60,10 @@ body {
   border-radius: 2px;
 }
 
+.link:hover {
+  background-color: #F16E1F;
+}
+
 .content {
   margin: 0px 20px;
   text-align: left;
@@ -65,7 +73,7 @@ body {
 }
 
 .orangeContainer {
-  background-color: #E55500;
+  background-color: #D3540E; /* #E55500; */
   margin: 5px;
   border-width: 2px;
   border-color: #401800;
