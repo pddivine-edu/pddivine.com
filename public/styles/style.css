@@ -41,7 +41,7 @@ body {
   font-size: 48px;
   min-width: 373px;
   height: 1em;
-  border-radius: 7px;
+  border-radius: 2px;
 }
 
 .title:hover {
