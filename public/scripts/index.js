@@ -33,7 +33,7 @@ function main () {
     'gulp',
     'webpack',
     'scaling',
-    '"server-less"  archetecture',
+    '"server-less"  architecture',
     'electron'
   ];
   typeWords(jumbleArray(arr));
