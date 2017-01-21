@@ -42,7 +42,6 @@ body {
   min-width: 373px;
   height: 1em;
   border-radius: 7px;
-   background-color: #D3540E; /* #E55500; */
 }
 
 .title:hover {
@@ -59,7 +58,6 @@ body {
 .link {
   height: 1em;
   border-radius: 2px;
-  background-color: floralwhite; /* #E55500; #D3540E;*/
 }
 
 .link:hover {
@@ -81,6 +79,7 @@ body {
   border-color: #401800;
   border-style: solid;
   padding: 10px;
+  background-color: floralwhite; /* #E55500; #D3540E;*/
 }
 
 .footer {
