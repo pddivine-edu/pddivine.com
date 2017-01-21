@@ -42,6 +42,7 @@ body {
   min-width: 373px;
   height: 1em;
   border-radius: 7px;
+   background-color: #D3540E; /* #E55500; */
 }
 
 .title:hover {
@@ -58,10 +59,12 @@ body {
 .link {
   height: 1em;
   border-radius: 2px;
+  background-color: floralwhite; /* #E55500; #D3540E;*/
 }
 
 .link:hover {
-  background-color: #F16E1F;
+  background-color: #BB4F0E;
+  /*background-color: #F16E1F;*/
 }
 
 .content {
@@ -73,7 +76,6 @@ body {
 }
 
 .orangeContainer {
-  background-color: #D3540E; /* #E55500; */
   margin: 5px;
   border-width: 2px;
   border-color: #401800;
