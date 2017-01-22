@@ -4,7 +4,7 @@ html, body {
   margin: 0px;
   color: #401800;
   background-color: rgba(255,153,0,0.35);
-  min-width: 460px;
+  min-width: 408px;
 }
 
 a {
@@ -105,6 +105,7 @@ body {
   background-size: cover;
   height: 100%;
   width: 100%;
+  min-width: 408px;
   position: absolute;
   z-index: -1000;
 }
