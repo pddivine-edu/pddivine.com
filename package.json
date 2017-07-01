@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/pddivine/pddivine.com.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Patrick Divine",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/pddivine/pddivine.com/issues"
   },
