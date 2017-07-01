@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pddivine/pddivine.com.git"
+    "url": "git+https://github.com/pddivine/personal-website.pddivine"
   },
   "author": "Patrick Divine",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/pddivine/pddivine.com/issues"
+    "url": "https://github.com/pddivine/personal-website.pddivine/issues"
   },
-  "homepage": "https://github.com/pddivine/pddivine.com#readme",
+  "homepage": "https://github.com/pddivine/personal-website.pddivine#readme",
   "dependencies": {
     "config": "^1.24.0",
     "express": "^4.14.0"
